@@ -1,5 +1,7 @@
-
-.env
-.env.*
-!.env.example
+__pycache__/
+*.py[cod]
 myenv/
+venv/
+.env
+chatbot.db
+.streamlit/secrets.toml
