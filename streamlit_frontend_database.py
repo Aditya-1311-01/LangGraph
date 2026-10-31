@@ -1,6 +1,6 @@
 import streamlit as st
 from langgraph_database_backend import chatbot,retreive_all_threads
-from langchain_core.messages import HumanMessage
+from langchain_core.messages import HumanMessage,AIMessage
 import uuid
 
 #utility function
